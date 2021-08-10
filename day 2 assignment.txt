@@ -1,0 +1,28 @@
+Day 02 Assignment Letsupgrade
+
+Question 1
+Find the output of the following code snippet: 
+int i =0, j = 0;
+int *p = &i, *q = &j;
+q = p;
+*q = 2
+cout<<i<<" "<<j;
+
+
+Sol->
+
+#include<iostream>
+using namespace std;
+
+int main(){
+int i =0, j = 0;
+int *p = &i, *q = &j;
+q = p;
+*q = 2
+cout<<i<<" "<<j;
+
+return 0;
+}
+
+output ->
+2 0
